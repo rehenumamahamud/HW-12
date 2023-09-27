@@ -1,0 +1,90 @@
+/*.......Common css start......*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'ubuntu',sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.align_center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+text_center{
+    text-align: center;
+}
+
+/*.......Common css end......*/
+
+/* Top Bar section start */
+#top_bar{
+    background-color: #0f2f44;
+
+}
+#top_bar p{
+       padding:13px 0;
+       font-size: 16px;
+       line-height: 24px;
+       font-family: 'ubuntu', sans-serif;
+       color: #fefefe;
+   
+}
+/* Top Bar section end *
+
+/* Nav Bar css section start */
+nav.row{
+    align-items: center;
+}
+nav ul li a{
+    font-weight: 500;
+    text-transform:capitalize;
+    font-size: 16px;
+    padding: 40px 19px;
+    line-height: 24px;
+    transition: 0.5s;
+    color: #0f2f44;
+}
+nav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+nav ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:1px solid #dedede;
+    background-color: #ffffff;
+    margin-left: 20px;
+}
+nav ul li button:hover{
+    background: #fff9e6;
+    color: #ffc712;
+    cursor: pointer;
+}
+/* Nav Bar css section end */
